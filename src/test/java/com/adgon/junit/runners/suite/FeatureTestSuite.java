@@ -1,4 +1,4 @@
-package com.adgon.junit.suite;
+package com.adgon.junit.runners.suite;
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;

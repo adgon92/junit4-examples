@@ -1,4 +1,4 @@
-package com.adgon.junit.parametrized;
+package com.adgon.junit.runners.parametrized;
 
 class Fibonacci {
 

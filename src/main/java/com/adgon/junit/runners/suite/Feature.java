@@ -1,4 +1,4 @@
-package com.adgon.junit.suite;
+package com.adgon.junit.runners.suite;
 
 public interface Feature {
 

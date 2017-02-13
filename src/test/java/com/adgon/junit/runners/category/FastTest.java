@@ -1,4 +1,4 @@
-package com.adgon.junit.category;
+package com.adgon.junit.runners.category;
 
 interface FastTest {
     // category marker

@@ -1,13 +1,14 @@
-package com.adgon.junit.suite;
+package com.adgon.junit.runners.suite;
 
 import lombok.Value;
 
 @Value
-public class LogoutFeature implements Feature {
+public class LoginFeature implements Feature {
 
     String userName;
 
     public String apply() {
         return userName;
     }
+
 }
