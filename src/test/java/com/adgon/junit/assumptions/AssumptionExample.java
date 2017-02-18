@@ -1,6 +1,6 @@
 package com.adgon.junit.assumptions;
 
-import lombok.Value;
+import com.adgon.junit.User;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
@@ -29,7 +29,7 @@ public class AssumptionExample {
     @Test
     public void filenameIncludesUsername() {
         assumeThat(File.separatorChar, is('/'));
-        assumeThat(new User("optimus").configFileName, is("config/optimus.conf"));
+        assumeThat(new User("optimus").getConfigFileName(), is("config/optimus.conf"));
     }
 
     @Test
@@ -39,8 +39,4 @@ public class AssumptionExample {
         assumeThat(new Object(), is(""));
     }
 
-    @Value
-    private class User {
-        String configFileName;
-    }
 }
