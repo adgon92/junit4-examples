@@ -1,4 +1,4 @@
-package execution.order;
+package com.adgon.junit.order;
 
 import org.junit.FixMethodOrder;
 import org.junit.Test;
