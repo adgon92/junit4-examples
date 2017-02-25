@@ -1,8 +1,8 @@
 package com.adgon.junit.runners.parametrized;
 
-class Fibonacci {
+public class Fibonacci {
 
-    static int compute(int n) {
+    public static int compute(int n) {
         int result;
 
         if (n <= 1) {
